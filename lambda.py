@@ -12,7 +12,7 @@ print(f"The doubled numbers are: {doubled_numbers}")
 print("-" * 120)
 
 data = [("apple", 5), ("banana", 2), ("cherry", 8), ("date", 1)]
-sorted_data = sorted(data, key=lambda item: item[1])
+sorted_data = sorted(data, key=lambda x: x[1])
 print(f"The sorted list of tuples based on the second element is: {sorted_data}")
 
 print("-" * 120)
